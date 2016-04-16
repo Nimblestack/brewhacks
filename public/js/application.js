@@ -1,10 +1,12 @@
 $(document).ready(function(){
 
-	$(".beer-info").hide();
-	$(".beer").show();
+	
+    $('.beer').click(function () {
+        $(this).next('div').slideToggle();
+        
+        $(this).parent().siblings().children().next().slideUp();
+        return false;
+    });
 
-	$(".beer").click(function(){
-	$(".beer-info").slideToggle();
-	});
 });
 
