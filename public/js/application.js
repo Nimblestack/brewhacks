@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
 	$(".beer-info").hide();
-	$(".beer-image").show();
+	$(".beer").show();
 
-	$(".beer-image").click(function(){
+	$(".beer").click(function(){
 	$(".beer-info").slideToggle();
 	});
 });
