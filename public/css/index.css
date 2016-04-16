@@ -7,9 +7,20 @@
 
 .site-title{
 	text-align: right;
+	padding-top: 20px;
 }
+
 
 .beer-info{
 	display: none;
+	background-color: rgba(193,193,193,0.6);
 }
 
+.thumbnail:hover {
+    top:-25px;
+    left:-35px;
+    width:200px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
