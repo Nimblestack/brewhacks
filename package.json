@@ -1,9 +1,9 @@
 {
-  "name": "nml-STT-app",
+  "name": "brewhacks",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node app/server.js"
   },
   "dependencies": {
       "express": "*",
