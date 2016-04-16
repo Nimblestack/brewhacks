@@ -15,12 +15,13 @@
 	display: none;
 	background-color: rgba(193,193,193,0.6);
 }
-
+/*
 .thumbnail:hover {
-    top:-25px;
-    left:-35px;
-    width:200px;
+    top: 25px;
+    left: 35px;
+    width: 100px;
     height:auto;
     display:block;
     z-index:999;
 }
+*/
