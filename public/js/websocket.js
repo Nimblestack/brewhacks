@@ -22,9 +22,7 @@ $(document).ready(function(){
 	};
 
 	socket.onmessage = function(event){
-		var position = updateLocation();
-		var message = '{"lat":'+position.coords.latitude + '", "long":'+position.coords.longitude+'"}';
-		socket.send(message);
+		updateLocation();
 	};
 
 	function success(position){
