@@ -144,5 +144,38 @@
 </div>
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="/js/application.js" type="text/javascript"></script>
+
+<script src="/js/websocket.js"></script>
+<script>
+
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '1775767052643115',
+        xfbml      : true,
+        version    : 'v2.6'
+      });
+
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) { return; }
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+  </script>
+
+>>>>>>> 625a1ca1839b621c90ba28efa239e3e0d016f780
 </body>
 </html>
