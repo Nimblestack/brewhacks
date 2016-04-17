@@ -24,6 +24,11 @@ div.logo{
   /*margin-left: 8%;*/
   margin-bottom: 80px;
 }
+
+.preferences-logo{
+  margin-bottom: 80px;
+  margin-left: 6%;
+}
 .col-xs-12 {
     width: 80%;
 }
