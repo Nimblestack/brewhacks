@@ -19,7 +19,6 @@ app.use(function (req, res, next) {
 app.use("/js", express.static(__dirname + "/public/js"));
 app.use("/css", express.static(__dirname + "/public/css"));
 app.use("/img", express.static(__dirname + "/public/img"));
-app.use("/webfonts", express.static(__dirname + "/public/webfonts"));
 app.use("/fonts", express.static(__dirname + "/public/fonts"));
 app.use("/templates", express.static(__dirname + "/public/templates"));
 app.use("/", express.static(__dirname + "/public"));
