@@ -17,7 +17,7 @@
 
 </head>
 	<body class="background-preferences">
-		<h1 class="site-title"> BrewBot</h1>
+		<h1 class="site-title preferences-title"> BrewBot</h1>
 
 			<nav role="navigation" class="navbar navbar-default navbar-fixed-top">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -28,7 +28,7 @@
                 	<span class="icon-bar"></span>
                 	<span class="icon-bar"></span>
             	</button>
-            			<a href="#" class="navbar-brand">BrewBot</a>
+            			<a href="index.html" class="navbar-brand">BrewBot</a>
             				<div class="fb-messengermessageus" 
   												messenger_app_id="1775767052643115" 
   												page_id="1690603557846175"
@@ -39,6 +39,7 @@
         <!-- Collection of nav links and other content for toggling -->
         	<div id="navbarCollapse" class="collapse navbar-collapse">
             	<ul class="nav navbar-nav">
+            	<li class="active"><a href="#">Preferences</a></li>
 									<li><a href="#">User Info</a></li>
                 	<li><a href="#">Favorites</a></li>
                 	<li></li>
@@ -47,25 +48,27 @@
     	</nav>
 
 
-			<div class="preference-center">
-				<h2 class="title"> Let's figure out which beers you like!</h2>
-			</div>
+<div class="preference-center">
+	<h2 class="p-title"> Let's figure out which beers you like!</h2>
+</div>
+<div class="row preference-menu">
+		<div class="col-xs-12 col-md-8">
+		<div class="preference-beer">
+			<h3> Choose your top 3 favorite beers</h3>
+		</div>
 
-			<div class="preference-beer">
-				<h3> Choose your top 3 favorite beers</h3>
-			</div>
+		<div class="preference-center">
+			<select id="beer-dropdown" multiple="multiple">
+			<option value="budweiser" class="beer-select">Budweiser</option>
+			<option value="corona">Corona</option>
+			  <option value="stella artois">Stella Artois</option>
+			<option value="leffe blonde">Leffe Blonde</option>
+			<option value="hoegaarden">Hoegaarden</option>
+		</select>
+		</div>
+	</div>
 
-			<div class="preference-center">
-				<select id="beer-dropdown" multiple="multiple">
-    			<option value="budweiser" class="beer-select">Budweiser</option>
-    			<option value="corona">Corona</option>
-   			  <option value="stella artois">Stella Artois</option>
-    			<option value="leffe blonde">Leffe Blonde</option>
-    			<option value="hoegaarden">Hoegaarden</option>
-    		</select>
-			</div>
-
-
+<div class="col-xs-12 col-md-8">
 			<div class="preference-flavor">
 				<h3>What flavors do you prefer?</h3>
 			</div>
@@ -74,37 +77,48 @@
 					<label for="fader1"> Fruity </label> 
 						<input class="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="10"/>
 					<label for="fader1"> Malty </label><br/>
-
+				
 					<label for="fader2"> Sweet </label> 
 						<input class="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="10"/>
 					<label for="fader2"> Bitter </label><br/>
-
+				
 					<label for="fader3"> Hoppy </label> 
 						<input class="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="10"/>
 					<label for="fader3"> Roasty </label><br/>
+					</div>
+					</div>
 
+					<div class="col-xs-12 col-md-8">
 					<div class="questions">
-				   <h3>How much alcohol do you prefer?</h3>
-			    </div>
-
+				   		<h3>How much alcohol do you prefer?</h3>
+			    	
 					<label for="fader"> Low Alcohol </label> 
 						<input class="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="10"/>
 					<label for="fader"> High Alcohol </label><br/>
+					</div>
+					</div>
 
+
+					<div class="col-xs-12 col-md-8">
 					<div class="questions">
 				   <h3>How adventerous are you?</h3>
-			   </div>
+			   
 					<label for="fader"> Not at all </label> 
 						<input class="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="10"/>
 					<label for="fader"> Very </label>
 			</div>
+			</div>
+			<!-- </div> -->
 
 			<div class="preference-center">
 			<br>
+			<div class="col-xs-12 col-md-8">
 				<a href="index.html"><button> Save</button><a>
+				</div>
 			</div>
 
 		</div>
+		<!-- </div> -->
 
 
 	
