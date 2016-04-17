@@ -11,7 +11,5 @@ $(document).ready(function(){
         // $(this).parent().siblings().children().next().slideUp();
         // return false;
     });
-
-
 });
 
