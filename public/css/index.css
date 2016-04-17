@@ -1,3 +1,20 @@
+
+.preference-center{
+  margin: left;
+  width: 60%;
+  padding-left: 200px;
+  color: black;
+}
+
+.form-control{
+  width: 300px;
+}
+
+.button-enter{
+ float: right;
+}
+
+
 .navigation{
 	list-style: none;
 	width: 100%;

@@ -8,5 +8,9 @@ $(document).ready(function(){
         return false;
     });
 
+		$('.ex1').slider();
+		$('#example-getting-started').multiselect();
+
+
 });
 
