@@ -7,125 +7,106 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>BrewBot</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/7.0.0/css/bootstrap-slider.min.css" rel="stylesheet">
 
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/7.0.0/css/bootstrap-slider.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css"/>
 
-	<link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css"/>
+		<link rel="stylesheet" href="/css/index.css">
 
-
-	<link rel="stylesheet" href="/css/index.css">
 </head>
-<body class="background-preferences">
+	<body class="background-preferences">
+		<h1 class="site-title"> BrewBot</h1>
+
+			<nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        	<div class="navbar-header">
+            	<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                	<span class="sr-only">Toggle navigation</span>
+                	<span class="icon-bar"></span>
+                	<span class="icon-bar"></span>
+                	<span class="icon-bar"></span>
+            	</button>
+            			<a href="#" class="navbar-brand">BrewBot</a>
+            				<div class="fb-messengermessageus" 
+  												messenger_app_id="1775767052643115" 
+  												page_id="1690603557846175"
+  												color="blue"
+  												size="xlarge" >
+  									</div>
+        		</div>
+        <!-- Collection of nav links and other content for toggling -->
+        	<div id="navbarCollapse" class="collapse navbar-collapse">
+            	<ul class="nav navbar-nav">
+									<li><a href="#">User Info</a></li>
+                	<li><a href="#">Favorites</a></li>
+                	<li></li>
+            	</ul>
+          </div>
+    	</nav>
 
 
+			<div class="preference-center">
+				<h2 class="title"> Let's figure out which beers you like!</h2>
+			</div>
+
+			<div class="preference-beer">
+				<h3> Choose your top 3 favorite beers</h3>
+			</div>
+
+			<div class="preference-center">
+				<select id="beer-dropdown" multiple="multiple">
+    			<option value="budweiser" class="beer-select">Budweiser</option>
+    			<option value="corona">Corona</option>
+   			  <option value="stella artois">Stella Artois</option>
+    			<option value="leffe blonde">Leffe Blonde</option>
+    			<option value="hoegaarden">Hoegaarden</option>
+    		</select>
+			</div>
 
 
-<div class="preference-center">
-<h1> Let's figure out which beers you like!</h1>
-</div>
+			<div class="preference-flavor">
+				<h3>Choose What Level of flavors you prefer</h3>
+			</div>
+					<br>
+				<div class="preference-answers">
+					<label for="fader1"> Fruity </label> 
+						<input class="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="10"/>
+					<label for="fader1"> Malty </label><br/>
 
-<div class="preference-center">
-<h2> Choose your top 3 favorite beers</h2>
-</div>
+					<label for="fader2"> Sweet </label> 
+						<input class="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="10"/>
+					<label for="fader2"> Bitter </label><br/>
 
+					<label for="fader3"> Hoppy </label> 
+						<input class="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="10"/>
+					<label for="fader3"> Roasty </label><br/>
 
-<select id="example-getting-started" multiple="multiple">
-    <option value="cheese">Cheese</option>
-    <option value="tomatoes">Tomatoes</option>
-    <option value="mozarella">Mozzarella</option>
-    <option value="mushrooms">Mushrooms</option>
-    <option value="pepperoni">Pepperoni</option>
-    <option value="onions">Onions</option>
-</select>
+					<label for="fader"> Low Alcohol </label> 
+						<input class="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="10"/>
+					<label for="fader"> High Alcohol </label><br/>
 
+					<label for="fader"> I'm NOT adventurous about trying something new </label> 
+						<input class="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="10"/>
+					<label for="fader"> I'm VERY adventurous about trying something new </label>
+			</div>
 
+			<div class="preference-center">
+			<br>
+				<button> Save</button>
+			</div>
 
-<div class="preference-center">
-<select class="form-control">
-  <option>Budweiser</option>
-  <option>Corona</option>
-  <option>Stella Artois</option>
-  <option>Leffe Blonde</option>
-  <option>Hoegaarden</option>
-</select>
-</div>
-<br>
-<div class="preference-center">
-<select class="form-control">
-  <option>Budweiser</option>
-  <option>Corona</option>
-  <option>Stella Artois</option>
-  <option>Leffe Blonde</option>
-  <option>Hoegaarden</option>
-</select>
-</div>
-<br>
-<div class="preference-center">
-<select class="form-control">
-  <option>Budweiser</option>
-  <option>Corona</option>
-  <option>Stella Artois</option>
-  <option>Leffe Blonde</option>
-  <option>Hoegaarden</option>
-</select>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-<!--  -->
-
-
-<div class="preference-center">
-<h2>Choose What Level of flavors you prefer</h2>
-<br>
-	<label for="fader1"> Fruity </label> 
-		<input class="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="10"/>
-	<label for="fader1"> Malty </label><br/>
-
-	<label for="fader2"> Sweet </label> 
-		<input class="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="10"/>
-	<label for="fader2"> Bitter </label><br/>
-
-	<label for="fader3"> Hoppy </label> 
-		<input class="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="10"/>
-	<label for="fader3"> Roasty </label><br/>
-
-	<label for="fader"> Low Alcohol </label> 
-		<input class="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="10"/>
-	<label for="fader"> High Alcohol </label><br/>
-
-	<label for="fader"> I'm NOT adventurous about trying something new </label> 
-		<input class="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="10"/>
-	<label for="fader"> I'm VERY adventurous about trying something new </label>
-</div>
-<div class="preference-center">
-<button> Save</button>
-</div>
-
-</div>
+		</div>
 
 
 	
-<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/7.0.0/bootstrap-slider.min.js"></script>
-
-<script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
-
-<script src="/js/application.js" type="text/javascript"></script>
-<script src="/js/websocket.js"></script>
+			<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/7.0.0/bootstrap-slider.min.js"></script>
+			<script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+			<script src="/js/application.js" type="text/javascript"></script>
+			<script src="/js/websocket.js"></script>
 
 
 </body>

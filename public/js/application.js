@@ -9,7 +9,7 @@ $(document).ready(function(){
     });
 
 		$('.ex1').slider();
-		$('#example-getting-started').multiselect();
+		$('#beer-dropdown').multiselect();
 
 
 });

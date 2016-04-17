@@ -1,4 +1,31 @@
 
+.title{
+  font-weight: bold;
+}
+
+.preference-answers{
+  margin: left;
+  width: 60%;
+  padding-left: 200px;
+  color: black;
+  font-size: 18px;
+}
+
+.preference-flavor{
+  margin: left;
+  width: 60%;
+  padding-left: 200px;
+  color: black;
+  font-style: italic;
+}
+
+.preference-beer{
+  margin: left;
+  width: 60%;
+  padding-left: 200px;
+  color: black;
+  font-style: italic;
+}
 
 .preference-center{
   margin: left;
