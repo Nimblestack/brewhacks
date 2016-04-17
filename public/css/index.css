@@ -1,3 +1,27 @@
+.icon-logo{
+  height: 150px;
+  width: inherit;
+  float: left;
+  margin-bottom: 25px;
+  /*margin-left: 2%;*/
+
+}
+
+.h2-suggest{
+  margin-top: 20%;
+  margin-left: 3%;
+}
+
+.index-title{
+      margin-top: -30px;
+    margin-bottom: 50px;
+
+}
+
+div.logo{
+  margin-left: 8%;
+  margin-bottom: 80px;
+}
 .col-xs-12 {
     width: 80%;
 }
@@ -7,8 +31,9 @@
 }
 
 .preferences-title{
-  margin-right: 10%;
-  margin-bottom: 30px;
+  float: left;
+  margin-bottom: 80px;
+  margin-top: -40px;
 }
 
 .preference-menu{
@@ -61,6 +86,7 @@
 
 .save-btn{
   margin-top: 40px; 
+  margin-bottom: 100px;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left:40px; 
@@ -69,14 +95,10 @@
 }
 
 .p-title{
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 18%;
+  margin-top: 15%;
 }
 
-/*.form-control{
-  width: 75%;
-}
-*/
 .button-enter{
  float: right;
 }
@@ -102,8 +124,10 @@
 }
 
 .site-title{
-	text-align: right;
+	/*text-align: right;*/
+  float: left;
 	font-family: 'Komika Axis', sans-serif;
+  margin-bottom: 4%;
 }
 
 .thumbnail{
@@ -117,7 +141,6 @@
 
 
 body {
-  min-height: 2000px;
   padding-top: 70px;
   font-family: "Gnuolane";
   background-color: white;
