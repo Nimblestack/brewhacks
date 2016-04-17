@@ -39,29 +39,29 @@ div.logo{
 }
 
 .preference-menu{
-  display: center;
+  /*display: center;*/
   margin-right: auto;
   margin-left: auto;
 }
 
 .preference-answers{
-  margin-left: 25%;
-  margin-right: 20%;
+margin-left: 35%;
+  margin-right: 25%;
   width: 70%;
   color: black;
   font-size: 18px;
 }
 
 .preference-flavor{
-  margin-left: 25%;
-  margin-right: 20%;
+  margin-left: 35%;
+  margin-right: 25%;
   width: 70%;
   color: black;
 }
 
 .preference-beer{
-  margin-left: 25%;
-  margin-right: 20%;
+  margin-left: 35%;
+  margin-right: 25%;
   width: 70%;
   color: black;
   font-style: italic;
@@ -69,8 +69,8 @@ div.logo{
 
 
 .preference-center{
-  margin-left: 25%;
-  margin-right: 20%;
+  margin-left: 35%;
+  margin-right: 25%;
   width: 70%;
   color: black;
 }
@@ -82,8 +82,8 @@ div.logo{
 }
 
 .questions{
-  margin-left: 25%;
-  margin-right: 20%;
+  margin-left: 35%;
+  margin-right: 25%;
 }
 
 .save-btn{
@@ -97,7 +97,8 @@ div.logo{
 }
 
 .p-title{
-  margin-left: 18%;
+  margin-left: 20%;
+  margin-right: 10%;
   margin-top: 15%;
 }
 
@@ -129,7 +130,7 @@ div.logo{
 	/*text-align: right;*/
   float: left;
 	font-family: 'Komika Axis', sans-serif;
-  margin-bottom: 4%;
+  margin-bottom: 12%;
 }
 
 .thumbnail{
