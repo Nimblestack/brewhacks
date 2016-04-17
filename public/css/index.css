@@ -23,8 +23,8 @@ body {
   min-height: 2000px;
   padding-top: 70px;
   font-family: "gnuolane";
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .navigation{
@@ -51,7 +51,7 @@ body {
 
 .beer-info{
 	display: none;
-	background-color: rgb(60,60,60);
+	background-color: #336699;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -59,9 +59,9 @@ body {
 	/*right: 50%;*/
 	width: 75%;
 	height: 75%;
-	margin-left: -500px;
-	margin-top: -200px;
-  color: black;
+	margin-left: -40%;
+	margin-top: -20%;
+  color: white;
 }
 
  .suggestion{
@@ -96,7 +96,13 @@ h4.beer-name{
 	text-align: center;
 }
 
+.btn-default:hover{
+	border-color: transparent;
+}
 
+.btn-default{
+	border-color: transparent;
+}
 
 
 
@@ -119,7 +125,8 @@ h4.beer-name{
     }
 
 p.description{
-	position: left;
+	position: right;
+	margin-left: 50px;
 }
 
 .beer-info-image{
