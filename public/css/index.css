@@ -16,7 +16,6 @@
   width: 60%;
   padding-left: 200px;
   color: black;
-  font-style: italic;
 }
 
 .preference-beer{
@@ -250,6 +249,14 @@ p.description{
 	margin-bottom: 40px;
 }
 
+#beer-dropdown .btn-group>.btn:first-child {
+  width:200px;
+}
 
-
+.questions{
+   margin: left;
+  width: 60%;
+  color: black;
+  font-size: 18px;
+}
 

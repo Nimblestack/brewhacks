@@ -8,9 +8,5 @@ $(document).ready(function(){
         return false;
     });
 
-		$('.ex1').slider();
-		$('#beer-dropdown').multiselect();
-
-
 });
 
