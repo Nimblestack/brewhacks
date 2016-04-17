@@ -1,12 +1,15 @@
 $(document).ready(function(){
 
 	
-    $('.beer').click(function () {
-        $(this).next('div').slideToggle();
+    $('.beer-open').click(function (e) {
+    	e.preventDefault();
+    	var d = $(this).attr('data-target');
+    	console.log(d)
+    	$(d).modal('show');
+        // $(this).next('div').slideToggle();
         
-        $(this).parent().siblings().children().next().slideUp();
-        return false;
+        // $(this).parent().siblings().children().next().slideUp();
+        // return false;
     });
-
 });
 
