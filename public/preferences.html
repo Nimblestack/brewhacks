@@ -5,6 +5,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>BeerBot</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/7.0.0/css/bootstrap-slider.min.css">
+
+
 	<link rel="stylesheet" href="../public/css/index.css">
 </head>
 <body>
@@ -29,7 +34,7 @@
 <div>
 <h3>Choose What Level of flavors you prefer</h3>
 	<label for="fader1"> Fruity </label> 
-		<input type="range" min="0" max="5" value="3" id="fader1">
+		<input type="range" min="0" max="2" value="3" id="fader1">
 	<label for="fader1"> Malty </label><br/>
 	<label for="fader2"> Sweet </label> 
 		<input type="range" min="0" max="5" value="3" id="fader2">
@@ -46,23 +51,20 @@
 </div>
 <button> Save</button>
 
-
-
-
+<input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="14"/>
 
 
 
 </div>
 
 
-
-
-
 	
 <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-<script src="../public/js/application.js" type="text/javascript"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script src="../public/js/websocket.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/7.0.0/bootstrap-slider.min.js">
+<script src="/js/application.js" type="text/javascript"></script>
+<script src="/js/websocket.js"></script>
+
 
 </body>
 </html>
