@@ -7,6 +7,12 @@
 
 }
 
+.explore{
+  font-style: italic;
+  font-size: 2em;
+  /*text-align: center;*/
+}
+
 .h2-suggest{
   /*margin-top: 15%;*/
   margin-left: 3%;
