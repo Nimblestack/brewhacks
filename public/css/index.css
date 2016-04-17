@@ -1,59 +1,107 @@
+.icon-logo{
+  height: 150px;
+  width: inherit;
+  float: left;
+  margin-bottom: 25px;
+  /*margin-left: 2%;*/
+
+}
+
+.h2-suggest{
+  /*margin-top: 15%;*/
+  margin-left: 3%;
+  float: left;
+  margin-right: 70%;
+}
+
+.index-title{
+      margin-top: -30px;
+    margin-bottom: 50px;
+
+}
+
+div.logo{
+  /*margin-left: 8%;*/
+  margin-bottom: 80px;
+}
+.col-xs-12 {
+    width: 80%;
+}
 
 .title{
   font-weight: bold;
 }
 
+.preferences-title{
+  float: left;
+  margin-bottom: 80px;
+  margin-top: -40px;
+}
+
 .preference-menu{
-  display: center;
+  /*display: center;*/
   margin-right: auto;
   margin-left: auto;
 }
 
 .preference-answers{
-  margin-left: 25%;
-  margin-right: 20%;
-  width: 60%;
+margin-left: 35%;
+  margin-right: 25%;
+  width: 70%;
   color: black;
   font-size: 18px;
 }
 
 .preference-flavor{
-  margin-left: 25%;
-  margin-right: 20%;
-  width: 60%;
+  margin-left: 35%;
+  margin-right: 25%;
+  width: 70%;
   color: black;
 }
 
 .preference-beer{
-  margin-left: 25%;
-  margin-right: 20%;
-  width: 60%;
+  margin-left: 35%;
+  margin-right: 25%;
+  width: 70%;
   color: black;
   font-style: italic;
 }
 
 
 .preference-center{
-  margin-left: 25%;
-  margin-right: 20%;
-  width: 60%;
+  margin-left: 35%;
+  margin-right: 25%;
+  width: 70%;
   color: black;
 }
 
 .slider{
   width: 67%;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .questions{
-  margin-left: 25%;
-  margin-right: 20%;
+  margin-left: 35%;
+  margin-right: 25%;
 }
 
-
-/*.form-control{
-  width: 75%;
+.save-btn{
+  margin-top: 40px; 
+  margin-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left:40px; 
+  padding-right: 40px;
+  /*border-radius: 5px;*/
 }
-*/
+
+.p-title{
+  margin-left: 20%;
+  margin-right: 10%;
+  margin-top: 15%;
+}
+
 .button-enter{
  float: right;
 }
@@ -79,8 +127,10 @@
 }
 
 .site-title{
-	text-align: right;
+	/*text-align: right;*/
+  float: left;
 	font-family: 'Komika Axis', sans-serif;
+  margin-bottom: 5%;
 }
 
 .thumbnail{
@@ -94,7 +144,6 @@
 
 
 body {
-  min-height: 2000px;
   padding-top: 70px;
   font-family: "Gnuolane";
   background-color: white;
@@ -195,7 +244,7 @@ h4.beer-name{
 
 /*adds scroll for section*/
 .wrapper { 
-  width: 900px; 
+  width: 90%; 
 	/*white-space: nowrap;*/
 	overflow-y: hidden;
 	overflow-x: scroll;
