@@ -117,15 +117,6 @@ margin-left: 35%;
  float: right;
 }
 
-@font-face {
-  font-family: Komika Axis;
-  src: url(/fonts/KOMIKAX_.tff);
-}
-
-@font-face {
-    font-family: gnuolane; /*a name to be used later*/
-    src: url(/fonts/gnuolane.tff); /*URL to font*/
-}
 
 .fb-messengermessageus {
 	margin-top:5px;
