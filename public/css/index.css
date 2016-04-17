@@ -8,8 +8,10 @@
 }
 
 .h2-suggest{
-  margin-top: 20%;
+  /*margin-top: 15%;*/
   margin-left: 3%;
+  float: left;
+  margin-right: 70%;
 }
 
 .index-title{
@@ -19,7 +21,7 @@
 }
 
 div.logo{
-  margin-left: 8%;
+  /*margin-left: 8%;*/
   margin-bottom: 80px;
 }
 .col-xs-12 {
